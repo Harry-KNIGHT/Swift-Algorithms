@@ -3,5 +3,6 @@
     <pages>
         <page name='UpAndDownCases'/>
         <page name='FizzBuzz'/>
+        <page name='EvenOrOdd'/>
     </pages>
 </playground>
