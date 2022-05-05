@@ -2,9 +2,11 @@
 
 import Foundation
 
-// Exercie:
-
-// Return a string who have one letter of 2 uppercased and lowercased, exemple: "Hello World" -> "HeLlO WoRlD"
+/*
+ // Exercie:
+    Créez un programme qui met en majuscule une lettre sur deux d’une chaîne de caractères. Seule les lettres (A-Z, a-z)
+    sont prises en compte.
+*/
 
 
 // first solution
@@ -27,7 +29,7 @@ func upAndDown(_ str: String) -> String {
 }
 print(upAndDown("Hello world"))
 
-// Optimized solution with error handling
+// Optimized solution but it always count space as string
 func upAndDown2(_ str: String) -> String {
     var newString = ""
     if str.isEmpty {
@@ -46,6 +48,22 @@ func upAndDown2(_ str: String) -> String {
 
 print(upAndDown2("Hello World !"))
 
-//: [Next](@next)
-
-
+// Better solution, ignore !letter.
+func upAndDownBool(_ userEntry: String) -> String {
+    var newPhrase = ""
+    var turnUp = true
+    for char in userEntry {
+        if char.isLetter {
+            if turnUp {
+                newPhrase += char.uppercased()
+            }else {
+                newPhrase += char.lowercased()
+            }
+            turnUp = !turnUp
+        }else {
+            newPhrase += String(char)
+        }
+    }
+    return newPhrase
+}
+print(upAndDownBool("Hello World wierdo world"))
