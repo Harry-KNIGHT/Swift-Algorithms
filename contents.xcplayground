@@ -4,6 +4,7 @@
         <page name='UpAndDownCases'/>
         <page name='FizzBuzz'/>
         <page name='EvenOrOdd'/>
-        <page name='Uppercase'/>
+        <page name='Capitalise'/>
+        <page name='NumbersOnly'/>
     </pages>
 </playground>
