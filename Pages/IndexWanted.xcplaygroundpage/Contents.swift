@@ -35,6 +35,6 @@ func indexWanted(_ entry: String) -> String {
     }
     return "Something went wrong please try again"
 }
-print(indexWanted("JE SUIS UN SOLDAT"))
+print(indexWanted("Ceci est le monde qui contient Charlie un homme sympa Charlie"))
 
 //: [Next](@next)
