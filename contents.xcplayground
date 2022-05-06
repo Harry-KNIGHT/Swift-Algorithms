@@ -7,5 +7,6 @@
         <page name='Capitalise'/>
         <page name='NumbersOnly'/>
         <page name='Min&amp;Max'/>
+        <page name='IndexWanted'/>
     </pages>
 </playground>

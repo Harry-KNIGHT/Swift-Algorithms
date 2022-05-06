@@ -17,4 +17,22 @@ func evenOrOddFunc(numberInt: Int) -> String {
 }
 
 print(evenOrOddFunc(numberInt: 10))
+
+func isEvenNumber(_ number: String) -> String {
+    let num = Int(number) ?? 0
+    
+    for i in number {
+        if !i.isNumber {
+            return "Error"
+        }else {
+            if num.isMultiple(of: 2) {
+                return "Pair"
+            }else {
+                return "Impair"
+            }
+        }
+    }
+    return "Something went wrong"
+}
+print(isEvenNumber("43"))
 //: [Next](@next)
