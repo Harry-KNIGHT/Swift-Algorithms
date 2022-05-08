@@ -8,5 +8,6 @@
         <page name='NumbersOnly'/>
         <page name='Min&amp;Max'/>
         <page name='IndexWanted'/>
+        <page name='Divisions'/>
     </pages>
 </playground>
