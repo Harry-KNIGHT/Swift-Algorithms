@@ -18,7 +18,7 @@ func indexWanted(_ entry: String) -> String {
     let splitted = entry.split(separator: " ")
     
     // Count how many string is equal to the last one in array
-    var filterArray = splitted.filter { $0 == splitted.last }.count
+    let filterArray = splitted.filter { $0 == splitted.last }.count
     
     //Error Handling
     if entry.isEmpty {
