@@ -9,5 +9,6 @@
         <page name='Min&amp;Max'/>
         <page name='IndexWanted'/>
         <page name='Divisions'/>
+        <page name='StringReverse'/>
     </pages>
 </playground>
