@@ -3,7 +3,7 @@
 import Foundation
 
 func stringReverse(_ userEntry: String) -> String {
-    var reversedString = userEntry.reduce("") { "\($1)\($0)"}
+    let reversedString = userEntry.reduce("") { "\($1)\($0)"}
     
     if userEntry.isEmpty {
         return "Error"
