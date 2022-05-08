@@ -9,5 +9,7 @@
         <page name='Min&amp;Max'/>
         <page name='IndexWanted'/>
         <page name='Divisions'/>
+        <page name='StringReverse'/>
+        <page name='PowerNumber'/>
     </pages>
 </playground>

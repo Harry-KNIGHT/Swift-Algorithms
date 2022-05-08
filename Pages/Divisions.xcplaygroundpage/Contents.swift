@@ -15,11 +15,11 @@ func division(_ number: String, divisedBy: String) -> String {
         return "Error"
     }
     //If no error, then divide and take the rest.
-    let result = number / divisedBy
-    let rest = divisedBy / divisedBy
+    let quotient = number / divisedBy
+    let rest = number - quotient * divisedBy
     
-    return "Resultat: \(result) \nReste: \(rest)"
+    return "Resultat: \(quotient) \nReste: \(rest)"
 }
 
-print(division("5", divisedBy: "0"))
+print(division("12", divisedBy: "5"))
 //: [Next](@next)
