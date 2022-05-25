@@ -12,5 +12,6 @@
         <page name='StringReverse'/>
         <page name='PowerNumber'/>
         <page name='StringSize'/>
+        <page name='SortedNotSorted'/>
     </pages>
 </playground>

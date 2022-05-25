@@ -15,7 +15,7 @@ func stringSize(_ userEntrence: String) -> String {
         }
     }
 
-    for index in userEntrence {
+    for _ in userEntrence {
         count += 1
     }
     return String(count)
